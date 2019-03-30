@@ -27,8 +27,5 @@
     "@types/node": "^11.12.1",
     "jsonlint": "^1.6.3",
     "unzip": "^0.1.11"
-  },
-  "publishConfig": {
-    "registry": "https://packagecloud.io/thomasdunn/dev/npm/"
   }
 }
