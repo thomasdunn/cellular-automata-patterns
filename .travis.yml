@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+- node
+install:
+- npm ci
+before_script:
+- cd .travis
+script:
+- node download-collections
+- node create-index
+- npm test
+after_success:
+- "./push.sh"
+- cd ..
+deploy:
+  provider: npm
+  email: thomas.dunn@gmail.com
+  skip_cleanup: true
+  on:
+    branch: master
+env:
+  global:
+    secure: HmbSFUbS0P6Fkan7FvAyiHbSfgUivboNlCr1rzHjoaAWN931aIYjXM88HDYelqdP+yG8fvZZQa3sF7lamzehEDT2PHTJJlVhkK1eW/tKShRU8EBAIz0KSdnTTJbhnCTtQMnBMuVViK3lfoXbumqIG9f7iv6sqpiFdzCtQLlgVzWBfQXWZ1xWKIugumgdNdLM0ujW3ksD4y7VHIVlY+zUk6EqDPKlDOXrF2IlMbigPRYX/mRUe2WSvNskeiZynGylwwSgO2bHuQVH22gMXbP6PY6cXXTIXzs1ubG+y7IS7HBFb4qg2TwVd9PPlVA/dBjJ1Ro8QEn3IRit60Unrcc633i1wlKzO6dGFX6Dme6amJqv10CAb0nlXlmzogp/BrcL+vewfyvMlnJweNPpliIUF+62Ia8PsXSseYJxKtRpEY3dJM9Vijhw4AhrFc2MzwPXi6m75LQffn9GX31DSr51pFPfLpalZMhz2rD4eJJKCkqB6mGySdRZBU0pvVqM/Ba0a3Hxzv9tp+y+Rm24y6JjgHVP3+EyQSx/5wvVahJ26odZn1i3p5hLBWxcX8gE2YvvA0spZD2mPPX/fIZGD439WYZt5Ld4xUcaOIn0ZEYLVkCdS9Wqd8mhTueQQwgFXj1pccJtV5cM8jE6vIq6n+objFH7p7xFZsseEYc2dsnYqj0=

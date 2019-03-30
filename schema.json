@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "directory": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "array",
+                "items": {
+                    "oneOf": [
+                        { "type": "string" },
+                        { "$ref": "#/definitions/directory" }
+                    ]
+                }
+            }
+        }
+    },
+    "type": "array",
+    "items": { "$ref": "#/definitions/directory" }
+}

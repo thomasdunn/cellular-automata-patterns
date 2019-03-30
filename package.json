@@ -1,0 +1,34 @@
+{
+  "name": "cellular-automata-patterns",
+  "version": "1.0.18",
+  "description": "Collections of cellular automata patterns",
+  "main": "index.json",
+  "scripts": {
+    "test": "jsonlint index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasdunn/cellular-automata-patterns.git"
+  },
+  "keywords": [
+    "cellular",
+    "automata",
+    "patterns",
+    "game of life",
+    "conway"
+  ],
+  "author": "Thomas Dunn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasdunn/cellular-automata-patterns/issues"
+  },
+  "homepage": "https://github.com/thomasdunn/cellular-automata-patterns#readme",
+  "devDependencies": {
+    "@types/node": "^11.12.1",
+    "jsonlint": "^1.6.3",
+    "unzip": "^0.1.11"
+  },
+  "publishConfig": {
+    "registry": "https://packagecloud.io/thomasdunn/dev/npm/"
+  }
+}
