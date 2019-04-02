@@ -2,3 +2,4 @@
 .travis.yml
 package-lock.json
 *.js
+*.sh
