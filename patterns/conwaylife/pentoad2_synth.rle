@@ -1,12 +1,10 @@
 #N pentoad2_synth.rle
-#O Jeremy Tan, 20 March 2019
-#C 16-glider synthesis of pentoad 2
+#O Jeremy Tan and Goldtiger997, 1 April 2019
+#C http://conwaylife.com/forums/viewtopic.php?p=74280#p74280
 #C http://conwaylife.com/wiki/Pentoad_2
-#C http://conwaylife.com/forums/viewtopic.php?p=73454#p73454
-x = 68, y = 37, rule = B3/S23
-28bo$21bobo2bobo$22b2o3b2o$22bo10bobo$33b2o$9bo24bo$7b2o$8b2o$25b2o5bo
-$6bo17bobo6bo2b3o$7bo18bo4b3o23b2o$5b3o49b2o2$39bo18bo$7b2o29bobo16b2o
-$7bobo28bobo15bobo$7bo31bo16b2o$63bo$60b4o$60bo$2bo27bo35b2o$obo26bobo
-33bobo$b2o26bobo33b2o$30bo34bo2$2b3o60b2o$2bo33b3o4bo21b2o$3bo27b3o2bo
-6bobo$37bo5b2o$2o$b2o$o34bo$35b2o$34bobo10bo$41b2o3b2o$41bobo2bobo$41b
-o!
+#C http://conwaylife.com/patterns/pentoad2_synth.rle
+x = 62, y = 39, rule = B3/S23
+61bo$40bo18b2o$41b2o17b2o$40b2o2$54bo$44bo8bo$45b2o6b3o$44b2o5$15bo$
+14bo39bo$14b3o36bobo$53bobo$17b3o34bo$17bo$bo16bo$2bo$3o42bo$44bobo$3b
+3o38bobo$5bo39bo$4bo5$54b2o$44b3o6b2o$46bo8bo$45bo2$58b2o$38b2o17b2o$
+39b2o18bo$38bo!
