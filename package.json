@@ -4,7 +4,7 @@
   "description": "Collections of cellular automata patterns",
   "main": "index.json",
   "scripts": {
-    "test": "jsonlint index.json"
+    "test": "ajv -s .travis/schema.json -d index.json && node .travis/size-check index.json"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/thomasdunn/cellular-automata-patterns#readme",
   "devDependencies": {
     "@types/node": "^11.12.1",
-    "jsonlint": "^1.6.3",
+    "ajv-cli": "^3.0.0",
     "unzip": "^0.1.11"
   }
 }

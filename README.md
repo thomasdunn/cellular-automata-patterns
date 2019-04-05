@@ -1,6 +1,8 @@
 cellular-automata-patterns
 ==========================
 
+[![Build Status](https://travis-ci.com/thomasdunn/cellular-automata-patterns.svg)](https://travis-ci.com/thomasdunn/cellular-automata-patterns) [![NPM version](https://badge.fury.io/js/cellular-automata-patterns.svg)](http://badge.fury.io/js/cellular-automata-patterns)
+
 This repo contains cellular automata pattern file collections.  It gives developers of CA apps and scripts an easy path to a large, high-quality set of patterns.
 
 The patterns are unaltered from the source including any readme or supporting files and are updated daily.
@@ -17,7 +19,25 @@ Contents
 
 `index.json` contains a listing of the contents of the `patterns` directory.  The root element is an array of directory objects for each pattern collection.  Directory objects have one property which is the name of the directory and its value is an array which is the contents of the directory.  The contents can be either directory objects or strings which are the filenames.
 
-`schema.json` formally describes the format of `index.json` with JSON Schema.
+For example:
+```
+[
+  {
+    "conwaylife": [
+      "101.rle",
+      "104p177.rle",
+      ...
+    ]
+  },
+  {
+    "othercollection": [
+      "pattern1.rle",
+      "pattern2.rle",
+      ...
+    ]
+  }
+]
+```
 
 Pull Requests
 -------------
