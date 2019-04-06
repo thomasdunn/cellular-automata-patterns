@@ -10,7 +10,9 @@ The patterns are unaltered from the source including any readme or supporting fi
 Collections
 -----------
 
-* **conwaylife** - The pattern collection from LifeWiki.  It currently contains 2,200+ RLE pattern files.  They are mostly standard Conway's Game of Life ruleset B3/S23, but also contains other rules.  http://www.conwaylife.com/wiki/Category:Patterns
+* **conwaylife** - The pattern collection from LifeWiki.  It currently contains 2,200+ RLE pattern files.  They are mostly standard Conway's Game of Life ruleset B3/S23, but also contains other rules.  See:
+  * [\_README\_.txt](patterns/conwaylife/_README_.txt)
+  * http://www.conwaylife.com/wiki/Category:Patterns
 
 Contents
 --------
