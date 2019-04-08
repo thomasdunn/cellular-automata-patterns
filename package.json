@@ -1,6 +1,6 @@
 {
   "name": "cellular-automata-patterns",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Collections of cellular automata patterns",
   "main": "index.json",
   "scripts": {
