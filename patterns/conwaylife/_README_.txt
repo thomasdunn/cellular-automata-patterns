@@ -1,5 +1,5 @@
 == CONWAYLIFE.COM PATTERN DATABASE ==
-Database compiled on: Mon, Apr 08 2019
+Database compiled on: Tue, Apr 09 2019
 Downloaded from: www.conwaylife.com/patterns/all.zip
 
 This pattern database contains 2379 pattern files for several hundred patterns in Conway's Game of Life and related cellular automata. All small patterns are provided in the RLE file format, and most patterns are provided in multiple other file formats as well. Large patterns are provided in macrocell file format. The file formats are:
